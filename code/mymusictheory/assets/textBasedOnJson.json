@@ -1,0 +1,32 @@
+[
+    {
+        "language": "English",
+        "homescreen": "PLACEHOLDER",
+        "quizStart": "Note Test!",
+        "highScore": "High Score: ",
+        "start": "Start!",
+        "currentWeather": "Current Weather: ",
+        "tips": "Tips For Instruments/Vocals: ",
+        "button1": "Reset Data",
+        "button2": "Switch Language to Spanish",
+        "question": "What note is this?",
+        "results": "Results",
+        "score": "Score",
+        "tryAgain": "Try Again"
+    },
+    {
+        "language": "Spanish",
+        "homescreen": "PLACEHOLDER",
+        "quizStart": "Nota Prueba!",
+        "highScore": "Puntuación Mas Alta: ",
+        "start": "Empezar!",
+        "currentWeather": "Clima Actual: ",
+        "tips": "Consejos para instrumentos/vocales: ",
+        "button1": "Restablecer datos",
+        "button2": "Cambiar el Idioma a Inglés",
+        "question": "¿Qué nota es esta?",
+        "results": "Resultados",
+        "score": "Puntuación",
+        "tryAgain": "Inténtalo de Nuevo"
+    }
+]

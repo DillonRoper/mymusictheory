@@ -1,0 +1,12 @@
+# mymusictheory
+
+About This App: 
+The purpose of this app is to provide a free and accessible learning tool to learn music theory. Music theory can be inaccessible for a lot of people that want to fundamentally improve their skills and knowledge because it's a complex subject that requires access to specialized information and musical tools to be able to teach/learn. Now that we're in the digital age, this information can be made accessible via apps, and the tools recreated on a digital platform. Many apps are "freemium" learning tools, so we're aiming to create something free and accessible to a general population.
+
+Build Instructions: 
+To be able to build and run the app successfully, you need to be connected to the internet and have location services enabled so that you'll be able to utilize weather services. Everything else is already built for the user, the only thing they may want to be aware of is that English is the default language, and there is a toggle for it in the settings to complete setup for their interface.
+
+Requirements: Nothing in particular! Should be launchable right out of the box.
+
+Project Layout: 
+This app has multiple similar pages that share the same layout, with the top app bar and bottom navigation bar. The nonsimilar page has a special functionality: the quiz. In terms of the similar screens, there's the home screen that welcomes the user and serves as the default launch page, as well as the weather page that displays the current weather (this is important because the safety of many instruments depends on not getting them wet, users need to be aware of the weather to be mindful of their instruments). These are represented through home view and weather view which has its own provider. There is also the settings page which has two functions: clearing the data (quiz high score and recorded data for the quiz end graph), and changing all the text from English to Spanish. Clearing data is done through the Quiz Provider and the language is changed through the Language Provider. The language provider has two maps with text that it can access depending on the language. The quiz functionality is accessed through the Quiz Start page (quiz_start.dart). When you press the start button, it takes you to quiz view where you can go through twenty questions of identifying notes (relevant images stored in assets) sand receive a score depending on how many you got correct. That score then contributes to a growing graph that displays your progress over time, as well as your high score (view built in quiz_end.dart).
