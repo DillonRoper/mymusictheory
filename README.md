@@ -1,5 +1,7 @@
 # mymusictheory
 
+Developed by Dillon Roper with assistance from Ella Grant
+
 About This App: 
 The purpose of this app is to provide a free and accessible learning tool to learn music theory. Music theory can be inaccessible for a lot of people that want to fundamentally improve their skills and knowledge because it's a complex subject that requires access to specialized information and musical tools to be able to teach/learn. Now that we're in the digital age, this information can be made accessible via apps, and the tools recreated on a digital platform. Many apps are "freemium" learning tools, so we're aiming to create something free and accessible to a general population.
 
